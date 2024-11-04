@@ -16,14 +16,14 @@ const SignInScreen = ({ navigation }: SignInScreenProps) => {
         <View className="flex flex-col space-y-3 mb-10">
           <Pressable
             onPress={toNext}
-            className="flex flex-row items-center space-x-4 justify-center rounded-full bg-white p-3.5"
+            className="flex flex-row items-center space-x-4 justify-center rounded-full bg-white px-4 py-5"
           >
             <GoogleLogo />
             <Text className="text-base font-medium">Google로 로그인하기</Text>
           </Pressable>
           <Pressable
             onPress={toNext}
-            className="flex flex-row items-center space-x-4 justify-center rounded-full bg-white p-3.5"
+            className="flex flex-row items-center space-x-4 justify-center rounded-full bg-white px-4 py-5"
           >
             <AppleLogo />
             <Text className="text-base font-medium">Apple로 로그인하기</Text>
